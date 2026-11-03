@@ -1,0 +1,40 @@
+ALBUM TRACKER — START HERE
+
+1. Extract this ZIP.
+2. Open the extracted album-tracker folder in VS Code (the folder containing package.json).
+3. Open Terminal > New Terminal.
+4. Run:
+   npm install
+   npm run dev
+5. Open the localhost address shown in the terminal (usually http://localhost:5173).
+
+IMPORTANT:
+- Search and iTunes track previews do not need an API key.
+- Some tracks have no iTunes preview. Their Play button is disabled by design.
+- The Deezer full-album option only appears when a confident match is found. Deezer may require login and a suitable plan.
+- Gemini recommendations require your own Google AI Studio API key.
+- To enable Gemini locally, copy .env.example to .env.local, replace the value with your key, save, then stop and restart the dev server.
+- Never share your Gemini key or commit .env.local to GitHub.
+
+GEMINI SETUP:
+1. Get a key from Google AI Studio.
+2. Copy .env.example and rename the copy to .env.local.
+3. Put your key after GEMINI_API_KEY= with no quotes.
+4. Restart npm run dev.
+5. Save at least 3 albums, rate them, then open Recommendations.
+
+CORE CHECKPOINTS:
+- Search a known artist, such as Radiohead.
+- Open an album: cover, artist, year, genre, track count, and Tracklist should appear.
+- Play a track that has a preview: the fixed mini-player should appear at the bottom.
+- Test pause, previous, next, and seek.
+- Save an album, choose a status, rate it, and add notes.
+- Open My collection; test filtering and sorting; refresh and confirm saved albums remain.
+- Test /api/deezer?q=radiohead in the browser.
+- Add at least 3 albums and set up Gemini to test Recommendations.
+
+DEPLOYMENT:
+Follow Steps 13–14 in the supplied lab manual for GitHub and Vercel. Add GEMINI_API_KEY in Vercel Project Settings > Environment Variables and redeploy. Do not upload .env.local.
+
+REFLECTION QUESTIONS:
+The five questions are in Appendix B (page 41) of the lab manual. Answer them in your own words based on your actual build and testing experience.
