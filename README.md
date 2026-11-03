@@ -18,6 +18,13 @@ Live link: Add your Vercel URL after deployment.
 ## Tech stack
 React, Vite, Context API, iTunes Search API, Deezer, Google Gemini, and Vercel.
 
+## Run locally
+1. Install Node.js 18 or newer and Git.
+2. Open this folder in a terminal.
+3. Run `npm install`.
+4. Copy `.env.example` to `.env.local` and add your Gemini API key as `GEMINI_API_KEY`.
+5. Run `npm run dev` and open the local address shown in the terminal.
+
 The core search, collection, and 30-second preview features can be tested without a Gemini key. Gemini recommendations require a valid key.
 
 ## Limitations
