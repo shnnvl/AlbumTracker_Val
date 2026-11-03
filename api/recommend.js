@@ -22,7 +22,7 @@ export default async function handler(req, res) {
   }
 
   // Choose a currently available Gemini model in Google AI Studio if this model is unavailable.
-  const MODEL = "gemini-2.5-flash";
+  const MODEL = "gemini-3.5-flash-lite";
 
   try {
     const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`, {
