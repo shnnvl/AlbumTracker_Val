@@ -3,9 +3,20 @@
 A web-based music application with React and Vite that allows users to search for music albums, explore album details, view tracklists, and organize their personal music collection. Can save albums, add ratings and notes, track their listening status, and discover music recommendations through an AI-powered feature. The application integrates the iTunes Search API, Deezer, and Gemini to provide a more interactive music discovery experience.
 
 ## Screenshot and live link
-![Album Discover](./screenshots\screenshots/discover.png) 
+### Album Discovery
+![Album Discover](./screenshots/screenshots/discover.png)
 
-(./screenshots\screenshots/collection.png) 
+### My Collection
+![Album Collection](./screenshots/screenshots/collection.png)
+
+### Album Details
+![Album Details](./screenshots/screenshots/album.png)
+
+### AI Recommendations
+![AI Recommendations](./screenshots/screenshots/AI%20reco.png)
+
+### Recommendations
+![Recommendations](./screenshots/screenshots/recommendations.png)
 
 **Live link:** [View Album Tracker]:(https://album-tracker-val.vercel.app/)
 
