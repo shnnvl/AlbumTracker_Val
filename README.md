@@ -5,7 +5,7 @@ A web-based music application with React and Vite that allows users to search fo
 ## Screenshot and live link
 ![Album Discover](./screenshots/discover.png) 
 
-(./screenshots/collection.png) 
+(./screenshots\screenshots/collection.png) 
 
 **Live link:** [View Album Tracker]:(https://album-tracker-val.vercel.app/)
 
